@@ -36,7 +36,7 @@ img.profile-pic {
 	height: 150px;
 	width: 150px;
 	margin: 0;
-	margin-left: 4px;
+	margin-left: 8px;
 }
 
 #qr-code {
@@ -44,12 +44,12 @@ img.profile-pic {
 	height: 125px;
 	width: 125px;
 	margin: 0;
-	margin-left: 4px;
+	margin-left: 8px;
 }
 
 img.company-logo {
 	margin-right: 0;
-	height: 75px;
+	height: 100px;
 	width: auto;
 }
 
@@ -58,7 +58,7 @@ img.company-logo {
 }
 
 .additional-info img {
-	margin-left: 4px;
+	margin-left: 8px;
 	height: 30px;
 	width: 30px;
 }
