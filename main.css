@@ -50,7 +50,7 @@ qr-code {
 img.company-logo {
 	margin-right: 0;
 	height: auto;
-	width: 300px;
+	width: 450px;
 }
 
 .icon-div {
@@ -231,8 +231,8 @@ img.company-logo {
 
 .share-button {
 	position: absolute;
-	top: 8px;
-	right: 8px;
+	top: 12px;
+	right: 12px;
 	font-size: 12px;
 	font-family: 'Lato', sans-serif;
 	color: #ffffff;
