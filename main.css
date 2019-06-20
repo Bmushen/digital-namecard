@@ -8,8 +8,8 @@ body {
 
 section {
 	display: block;
-	padding-left: 0.5rem;
-	padding-right: 0.5rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
 	height: auto;
 }
 
@@ -33,27 +33,56 @@ img {
 }
 
 img.profile-pic {
-	height: 30%;
-	width: 30%;
 	object-fit: cover;
 	border-radius: 50%;
+	height: 150px;
+	width: 150px;
+}
+
+#qr-code {
+	display: none;
+	height: 125px;
+	width: 125px;
+	margin: 0;
+	margin-left: 4px;
+}
+
+img.company-logo {
+	margin-right: 0;
+	height: 75px;
+	width: auto;
+}
+
+.icon-div {
+	margin-left: 8px;
+}
+
+.additional-info img {
+	margin-left: 4px;
+	height: 30px;
+	width: 30px;
 }
 
 .container {
 	margin: 0 auto;
 	position: relative;
 	height: 100%;
+	object-fit: contain;
 }
 
 .row {
 	display: flex;
-	justify-content: center;
+	justify-content: flex-start;
 	align-items: center;
 	flex-wrap: nowrap;
 	flex-direction: row;
 	position: relative;
 	height: 100%;
-	width: 100%;
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	object-fit: contain;
+	overflow: hidden;
 }
 
 .col {
@@ -123,19 +152,23 @@ img.profile-pic {
 }
 
 .banner {
-	height: 30%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	height: 150px	;
 }
 
 .primary-info {
-	height: 15%;
+	height: 100px;
+	border-bottom: 1px solid #EDEDED;
 }
 
 .secondary-info {
-	height: 8%;
+	height: 60px;
+	border-bottom: 1px solid #EDEDED;
 }
 
 .bg-color-orange {
-	background-color: #FABB00;
+	background: linear-gradient(#ffcb05, #faa61a);
 }
 
 .bg-color-white {
@@ -164,32 +197,23 @@ img.profile-pic {
 }
 
 .bottom {
-	height: 23%;
+	height: 100px;
 }
 
 .button {
-	background-color: #FABB00;
+	display: block;
+	background: linear-gradient(#ffcb05, #faa61a);
 	height: 48px;
-	padding-left: 24px
-	padding-right: 24px;
+	padding: 0px 24px;
 	text-align: center;
 	vertical-align: middle;
 	line-height: 48px;
 	font-family: 'Muli', sans-serif;
 	color: white;
 	font-weight: 300;
+	border: none;
 }
 
-@media screen and (max-width: 600px) {
-  img.profile-pic {
-    height: 60%;
-    width: 60%;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  img.profile-pic {
-    height: 80%;
-    width: 80%;
-  }
+.button:hover {
+	cursor: pointer;
 }
