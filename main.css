@@ -92,7 +92,7 @@ img.company-logo {
 	flex-grow: 1;
 	flex-shrink: 1;
 	margin: 0;
-	padding: 0.25rem;
+	padding: 1rem;
 	max-width: 100%;
 	max-height: 100%;
 	overflow: auto;
@@ -153,8 +153,8 @@ img.company-logo {
 }
 
 .banner {
-	padding-top: 25px;
-	padding-bottom: 25px;
+	padding-top: 30px;
+	padding-bottom: 30px;
 	height: 150px;
 }
 
