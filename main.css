@@ -45,6 +45,7 @@ img.profile-pic {
 	width: 125px;
 	margin: 0;
 	margin-left: 4px;
+	margin-right: 4px;
 }
 
 img.company-logo {
@@ -55,10 +56,12 @@ img.company-logo {
 
 .icon-div {
 	margin-left: 8px;
+	margin-right: 8px;
 }
 
 .additional-info img {
 	margin-left: 4px;
+	margin-right: 4px;
 	height: 30px;
 	width: 30px;
 }
@@ -152,8 +155,8 @@ img.company-logo {
 }
 
 .banner {
-	padding-top: 20px;
-	padding-bottom: 20px;
+	padding-top: 25px;
+	padding-bottom: 25px;
 	height: 150px	;
 }
 
