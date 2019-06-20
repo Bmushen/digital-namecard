@@ -179,16 +179,20 @@ img.company-logo {
 	background-color: white;
 }
 
+.bg-color-blue {
+	background: linear-gradient(#00447c, #005798);
+}
+
 .text-name {
     font-family: 'Lato', sans-serif;
-    font-weight: 400;
+    font-weight: 500;
     color: #00447A;
-    font-size: 28px;
+    font-size: 24px;
 }
 
 .text-title-company {
     font-family: 'Lato', sans-serif;
-    font-weight: 200;
+    font-weight: 300;
     color: #00447A;
     font-size: 16px;
 }
@@ -197,7 +201,7 @@ img.company-logo {
     font-family: 'Lato', sans-serif;
     font-weight: 300;
     color: #00447A;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .bottom {
