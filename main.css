@@ -49,8 +49,8 @@ qr-code {
 
 img.company-logo {
 	margin-right: 0;
-	height: 100px;
-	width: auto;
+	height: auto;
+	width: 250px;
 }
 
 .icon-div {
@@ -186,14 +186,14 @@ img.company-logo {
 .text-name {
     font-family: 'Lato', sans-serif;
     font-weight: 500;
-    color: #00447A;
+    color: white;
     font-size: 24px;
 }
 
 .text-title-company {
     font-family: 'Lato', sans-serif;
     font-weight: 300;
-    color: #00447A;
+    color: white;
     font-size: 16px;
 }
 
