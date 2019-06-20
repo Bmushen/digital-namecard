@@ -8,8 +8,8 @@ body {
 
 section {
 	display: block;
-	padding-left: 1rem;
-	padding-right: 1rem;
+	padding-left: 0.5rem;
+	padding-right: 0.5rem;
 	height: auto;
 }
 
@@ -33,59 +33,27 @@ img {
 }
 
 img.profile-pic {
+	height: 30%;
+	width: 30%;
 	object-fit: cover;
 	border-radius: 50%;
-	height: 150px;
-	width: 150px;
-}
-
-#qr-code {
-	display: none;
-	height: 125px;
-	width: 125px;
-	margin: 0;
-	margin-left: 4px;
-	margin-right: 4px;
-}
-
-img.company-logo {
-	margin-right: 0;
-	height: 75px;
-	width: auto;
-}
-
-.icon-div {
-	margin-left: 8px;
-	margin-right: 8px;
-}
-
-.additional-info img {
-	margin-left: 4px;
-	margin-right: 4px;
-	height: 30px;
-	width: 30px;
 }
 
 .container {
 	margin: 0 auto;
 	position: relative;
 	height: 100%;
-	object-fit: contain;
 }
 
 .row {
 	display: flex;
-	justify-content: flex-start;
+	justify-content: center;
 	align-items: center;
 	flex-wrap: nowrap;
 	flex-direction: row;
 	position: relative;
 	height: 100%;
-	width: 500px;
-	margin-left: auto;
-	margin-right: auto;
-	object-fit: contain;
-	overflow: hidden;
+	width: 100%;
 }
 
 .col {
@@ -155,23 +123,19 @@ img.company-logo {
 }
 
 .banner {
-	padding-top: 25px;
-	padding-bottom: 25px;
-	height: 150px	;
+	height: 30%;
 }
 
 .primary-info {
-	height: 100px;
-	border-bottom: 1px solid #EDEDED;
+	height: 15%;
 }
 
 .secondary-info {
-	height: 60px;
-	border-bottom: 1px solid #EDEDED;
+	height: 8%;
 }
 
 .bg-color-orange {
-	background: linear-gradient(#ffcb05, #faa61a);
+	background-color: #FABB00;
 }
 
 .bg-color-white {
@@ -200,23 +164,54 @@ img.company-logo {
 }
 
 .bottom {
-	height: 100px;
+	height: 23%;
 }
 
 .button {
-	display: block;
-	background: linear-gradient(#ffcb05, #faa61a);
+	background-color: #FABB00;
 	height: 48px;
-	padding: 0px 24px;
+	padding-left: 24px
+	padding-right: 24px;
 	text-align: center;
 	vertical-align: middle;
 	line-height: 48px;
 	font-family: 'Muli', sans-serif;
 	color: white;
 	font-weight: 300;
-	border: none;
 }
 
-.button:hover {
+/* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.share-button {
+	position: absolute;
+	top: 0;
+	right: 0;
+	font-size: 12px;
+	font-family: 'Lato', sans-serif;
+	color: white;
+	text-align: center;
+}
+
+.share-button:hover {
 	cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+  img.profile-pic {
+    height: 60%;
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  img.profile-pic {
+    height: 80%;
+    width: 80%;
+  }
 }
