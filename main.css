@@ -48,17 +48,21 @@ qr-code {
 }
 
 img.company-logo {
-	margin-right: 0;
+	object-fit: cover;
 	height: auto;
-	width: 450px;
+	width: 500px;
+	margin: 0;
+	margin-right: 4px;
 }
 
 .icon-div {
 	margin-left: 4px;
+	margin-right: 4px;
 }
 
 .additional-info img {
 	margin-left: 8px;
+	margin-right: 8px;
 	height: 30px;
 	width: 30px;
 }
