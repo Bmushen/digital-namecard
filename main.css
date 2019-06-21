@@ -154,6 +154,7 @@ img.company-logo {
 
 .banner {
 	height: 180px;
+	padding: inherit;
 }
 
 .primary-info {
