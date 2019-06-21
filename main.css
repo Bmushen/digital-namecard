@@ -80,8 +80,8 @@ img.company-logo {
 	position: relative;
 	height: 100%;
 	width: 500px;
-	margin-left: auto;
-	margin-right: auto;
+	margin-left: 10px;
+	margin-right: 10px;
 	object-fit: contain;
 	overflow: hidden;
 }
@@ -153,9 +153,7 @@ img.company-logo {
 }
 
 .banner {
-	padding-top: 30px;
-	padding-bottom: 30px;
-	height: 150px;
+	height: 180px;
 }
 
 .primary-info {
@@ -185,21 +183,21 @@ img.company-logo {
 
 .text-name {
     font-family: 'Lato', sans-serif;
-    font-weight: 500;
+    font-weight: 600;
     color: #ffffff;
     font-size: 24px;
 }
 
 .text-title-company {
     font-family: 'Lato', sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     color: #ffffff;
     font-size: 16px;
 }
 
 .text-detail {
     font-family: 'Lato', sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     color: #00447A;
     font-size: 14px;
 }
